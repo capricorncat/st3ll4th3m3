@@ -1,0 +1,37 @@
+@import 'shortcuts.less';
+
+
+.fascinate() { 
+	@import url('https://fonts.googleapis.com/css?family=Fascinate');
+	@fascinate: 'Fascinate', sans-serif; 
+}
+.fascinateinline() { 
+	@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+	@fascinateinline: 'Fascinate Inline', sans-serif; 
+}
+.poiretone() { 
+	@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+	@poiretone: 'Poiret One', cursive;
+} 
+
+.flamenco() {
+	@import url('https://fonts.googleapis.com/css?family=Flamenco');
+	@flamenco: 'Flamenco', cursive;
+}
+
+.flamenco();
+.poiretone();
+.fascinateinline();
+
+.sans ( @sans: @poiretone, @size: 14px, @weight: normal	){ 
+	.font( @sans, @size, @weight ); 
+}
+.serif( @serif: @flamenco, @size: 14px, @weight: normal ){ 
+	.font( @serif, @size, @weight ); 
+}
+.deco ( @deco: @fascinateinline, @size: 14px, @weight: normal  ){ 
+	.font( @deco, @size, @weight ); 
+}
+
+
+

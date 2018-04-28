@@ -1,0 +1,25 @@
+{
+  "paths": {
+    "assets":   "assets/",
+    "dist":     "dist/"
+  },
+  "dependencies": {
+    "scripts.js": {
+      "bower":  ["jquery"],
+      "vendor": ["dist/semantic/dist/semantic.js"],
+      "files":  ["coffee/main.coffee"],
+      "main":   true
+    },
+    "styles.css": {
+      "vendor": ["dist/semantic/dist/semantic.css"],
+      "files":  ["less/main.less"],
+      "main":   true
+    }
+  },
+  "config": {
+    "devUrl": "http://localhost:8888/stellaproductions/",
+    "semantic": "dist/semantic/",
+    "bower":    "bower_components/",
+    "node":     "node_modules/"
+  }
+}

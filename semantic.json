@@ -1,0 +1,22 @@
+{
+  "base": "dist/",
+  "paths": {
+    "source": {
+      "config": "semantic/theme.config",
+      "definitions": "semantic/definitions/",
+      "site": "semantic/site/",
+      "themes": "semantic/themes/"
+    },
+    "output": {
+      "packaged": "",
+      "uncompressed": "components/",
+      "compressed": "components/",
+      "themes": "themes/"
+    },
+    "clean": "dist/"
+  },
+  "permission": false,
+  "autoInstall": true,
+  "rtl": false,
+  "version": "2.3.1"
+}
